@@ -1,0 +1,76 @@
+.socialmedia-logo{
+width: 50px;
+height: 50px;
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 32px;
+padding-right: 32px;
+}
+form{
+    text-align: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: 1px solid #ccc;
+}
+body{
+    background-color: #f2f6ff;
+    margin: 0px;
+    padding: 16px;
+    background-image: url(download.jfif);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#form-heading{
+    font-size: 32px;
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+#socialmedia-wrapper{
+    background-color:#f2f6ff;
+    padding: 32px;
+}
+.input-box{
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
+#input-wrapper{
+    padding-top: 3px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+#btn-submit{
+    background-color: #0056ff;
+    padding-top: 12px; ;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+#avatar{
+   width: 85px;
+   height: 80px;
+   position: absolute;
+   top: 3%;
+   left: calc(50% - 40px);
+}
+p{
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-size: 20px;
+}

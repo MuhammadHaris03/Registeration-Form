@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER FORM</title>
+    <link rel="stylesheet" href="7registerstylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <form>
+        <!---Form Heading-->
+        <div>
+            <img src="avatar.jpg" id="avatar">
+
+            <h1 id="form-heading">REGISTER</h1>
+        </div>
+        <!--SocialMedia Logo through which Register-->
+        <div id="socialmedia-wrapper">
+            <a href="#">
+                <img src="google_logo.png" alt="Register through Google" class="socialmedia-logo"></a>
+
+            <a href="#">
+                <img src="facebook_logo.png" alt="Register through Facebook" class="socialmedia-logo"></a>
+
+            <a href="#">
+                <img src="instagram_logo.png" alt="Register through Instagram" class="socialmedia-logo"></a>
+
+            <a href="#">
+                <img src="github_logo.png" alt="Register through Github" class="socialmedia-logo"></a>
+
+        </div>
+        <h3>- OR -</h3>
+        <!--Form Main Entry-->
+        <div id="input-wrapper">
+            <div>
+                <p><i class="fa fa-user fa-1x"></i> UserName:</p>
+                <input type="text" name="username" placeholder="USERNAME" class="input-box" required>
+            </div>
+            <div>
+                <p>Name:</p>
+                <input type="text" name="name" placeholder="NAME" class="input-box" required>
+            </div>
+            <div>
+                <p><i class="fa fa-envelope fa-1x"></i> Email:</p>
+                <input type="email" name="email" placeholder="EMAIL" class="input-box" required>
+            </div>
+            <div>
+                <p><i class="fa fa-lock fa-1x"></i> Password:</p>
+                <input type="password" name="password" placeholder="PASSWORD" class="input-box" required>
+            </div>
+            <div>
+                <p><i class="fa fa-lock fa-1x"></i> Confirm-Password:</p>
+                <input type="password" name="confirm-password"  placeholder="CONFIRM-PASSWORD" class="input-box" required>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox" required>
+                <label for="password">The information above is correct to the best of my knowledge.</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="register" value="Register" id="btn-submit">
+            </div>
+</form>
+<p>If Already Registered! <a href="7login.html" target="_blank">Login Here</a></p>
+</body>
+</html>
